@@ -34,7 +34,7 @@ void player_choice(){
     else if(turn == 'O'){
         cout<<"\nPlayer 2's [O] turn : ";
     }
-    //Taking input from player
+    //taking input from player
     cin>>digit; 
 
     //switch case to get the row and column to be updated
@@ -141,5 +141,5 @@ int main()
         cout<<"\nGame is a Draw!\n";
     }
 
-    system("pause");
+    system("pause"); //to prevent the abrupt exit after game is over
 } 
